@@ -16,6 +16,43 @@
   --white: hsl(0, 0%, 100%);
 }
 
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main styles */
+
+body {
+  background-color: var(--very-dark-blue-main-bg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--very-dark-blue-card);
+  width: 361px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.eq-img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* Attribution styles */
 .attribution {
   font-size: 11px;
